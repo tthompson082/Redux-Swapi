@@ -12,7 +12,7 @@ export const charsReducer = (state = initialState, action) => {
     // your switch statement should handle all of these cases.
     case FETCHING:
       return {
-        characters: {},
+        characters: [],
         error: null,
         isFetching: true
       };
